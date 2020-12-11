@@ -3,5 +3,5 @@
 caracter = 97
 
 while caracter < 123:
-    print(chr(caracter), end="")
+    print("{:c}".format(caracter), end="")
     caracter = caracter + 1
