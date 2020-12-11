@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-def islower(c):
 
+def islower(c):
     var = False
 
-    if c >= 'a' and c <= 'z':
+    if c >= 'a' and c <= 'z' and c != "":
         var = True
 
         return var
